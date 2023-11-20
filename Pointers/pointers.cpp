@@ -16,6 +16,16 @@ int main(){
  cout<<"after using pointer "<< *p <<endl;
 
  cout<<"value in pointer "<< p <<endl;
+
+
+
+ int arr[] = {2,4,6,8,10};
+
+ int *s;
+ s=arr;
+
+ for(int i=0; i<5; i++){
+    cout<<s[i]<<endl;}
     
  return 0;
 }
