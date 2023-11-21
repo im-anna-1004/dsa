@@ -46,6 +46,7 @@ cout<<"\n//Part 2/////////////////////////////////////////////////////\n"<<endl;
    for(int i=0; i<5; i++){
     cout<<p1[i]<<endl;}
 
-
+   cout<<sizeof(p1)<<endl;
+   cout<<sizeof(p)<<endl;
  return 0;
 }
