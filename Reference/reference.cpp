@@ -22,6 +22,9 @@ int main(){
     a++;
     cout<<"a = "<<a<<endl;
 
+
+
+
     int b = 15;
     r=b;
 
