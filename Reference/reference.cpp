@@ -21,5 +21,10 @@ int main(){
 
     a++;
     cout<<"a = "<<a<<endl;
+
+    int b = 15;
+    r=b;
+
+    cout<<"a = "<<a<<endl;
   return 0;
 }
