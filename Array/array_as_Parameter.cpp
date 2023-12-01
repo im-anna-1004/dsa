@@ -6,9 +6,7 @@ using namespace std;
 void func (int A[], int size){
 
     cout << "Array is = ";
-    for(int i = 0; i < size; i++){
-        cout << A[i]<<" ";
-    }
+    A[0] = 10;
 }
 
 int main(){
@@ -22,5 +20,9 @@ int main(){
     }
 
     func(A, size);
+
+    for(int i = 0; i < size; i++){
+        cout << A[i]<<" ";
+    }
     return 0;
 }
